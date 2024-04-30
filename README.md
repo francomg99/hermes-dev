@@ -20,7 +20,7 @@ Aquí puedes encontrar una lista de algunos de mis proyectos destacados:
 ## Contacto
 ¡Me encantaría escuchar tus ideas y colaborar contigo en futuros proyectos! Puedes contactarme a través de los siguientes medios:
 
-- Email: tuemail@example.com
+- Email: francomartinezg99@gmail.com
 - LinkedIn: [Franco LinkedIn](https://www.linkedin.com/in/francomg99/)
 - Git Hub: [Franco Git Hub](https://github.com/francomg99)
 
