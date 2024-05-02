@@ -31,10 +31,13 @@ def portafolio_pages_desktop(src:str, strong:str, text: str, name: str, icon: st
                         bg=Color.ACCENT.value,
                         border_color=Color.TERTIARY.value
                     ),
-                    button(name, icon, url)),
-                    padding_left=Size.BIG.value,
-                    padding_bottom=Size.BIG.value
-                ),
+
+                            button(name, icon, url),
+                            padding_left=Size.BIG.value,
+                            padding_bottom=Size.BIG.value
+                        ),
+                    )
+
 def portafolio_pages_mobile(src:str, strong:str, text: str, name: str, icon: str, url: str)->rx.Component:
       return rx.center(
                     rx.vstack(

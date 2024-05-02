@@ -218,7 +218,7 @@ def header_desktop() -> rx.Component:
                         contact_text(
                             "✦ O si prefieres la comodidad de ",
                             "What's App.",
-                            "https://wa.me/+342625779836"
+                            "https://wa.me/+34625779836"
                         ),
                         contact_text(
                             "✦ Antes que nada revisa nuestro ",
@@ -348,7 +348,8 @@ def header_mobile() -> rx.Component:
                             'text_indent':"1em"
                         }
                     ),
-                ),                padding=Size.SMALL.value,
+                ),                
+                padding=Size.SMALL.value,
                 font_size=Size.LETTER.value
                 ),
             ),

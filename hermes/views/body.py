@@ -2,6 +2,7 @@ import reflex as rx
 from hermes.styles.styles import Size
 from hermes.components.title import title
 from hermes.components.portafolio_pages import portafolio_pages_desktop, portafolio_pages_mobile
+from hermes.components.button import button
 
 def body_desktop() -> rx.Component:
     return rx.desktop_only(
@@ -20,8 +21,8 @@ def body_desktop() -> rx.Component:
                     Conocé su página para saber más sobre ellos.""",
                     "Visitar página de Caché Bistro", 
                     "wine", 
-                    "https://cache-bistro.reflex.run/"                    
-                ),
+                    "https://cache-bistro.reflex.run/",                 
+                    ),
                 rx.spacer(),
                 portafolio_pages_desktop(
                     "jacaranda.png",
@@ -32,8 +33,8 @@ def body_desktop() -> rx.Component:
                     y no representa una empresa existente.""",
                     "Visitar página de Jacaranda Coffee", 
                     "coffee",
-                    "https://jacaranda-coffee.reflex.run/"                    
-                ),
+                    "https://jacaranda-coffee.reflex.run/",                     
+                    ),
                 ),
                 portafolio_pages_desktop(
                     "hermes_page.png",
@@ -42,8 +43,8 @@ def body_desktop() -> rx.Component:
                     enlaces de interes para poder contactarte con él y consultar todas tus dudas.""",
                     "Enviar mensaje a Hermes Web", 
                     "send", 
-                    "https://hermes.reflex.run/"                    
-                ),
+                    "https://hermes.reflex.run/",                     
+                    ),
                 width="100%",
             )    
     )            
@@ -62,8 +63,9 @@ def body_mobile() -> rx.Component:
                     Conocé su página para saber más sobre ellos.""",
                     "Visitar página de Caché Bistro", 
                     "wine", 
-                    "https://cache-bistro.reflex.run/"                    
+                    "https://cache-bistro.reflex.run/",                   
                 ),
+                
                 portafolio_pages_mobile(
                     "jacaranda.png",
                     "Jacaranda Coffee ",
@@ -73,7 +75,7 @@ def body_mobile() -> rx.Component:
                     y no representa una empresa existente.""",
                     "Visitar página de Jacaranda Coffee", 
                     "coffee",
-                    "https://jacaranda-coffee.reflex.run/"                    
+                    "https://jacaranda-coffee.reflex.run/",            
                 ),
                 portafolio_pages_mobile(
                     "hermes_page.png",
@@ -82,7 +84,7 @@ def body_mobile() -> rx.Component:
                     enlaces de interes para poder contactarte con él y consultar todas tus dudas.""",
                     "Enviar mensaje a Hermes Web", 
                     "send", 
-                    "https://hermes.reflex.run/"                    
+                    "https://hermes.reflex.run/",                     
                 ),
                 width="100%",
                 padding=Size.SMALL.value,
