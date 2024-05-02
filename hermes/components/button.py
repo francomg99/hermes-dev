@@ -5,7 +5,7 @@ def button (text: str, tag:str, url:str) -> rx.Component:
     return rx.chakra.button(
         text,
         rx.icon(tag=tag, padding_left=Size.SMALL.value, size=30),   
-        on_click=rx.redirect(url, external=True),
+        rx.link(url, external=True),
             style={
                 "background":Color.PRIMARY.value,
                 "color":TextColor.TERTIARY.value,

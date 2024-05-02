@@ -21,7 +21,7 @@ def copy_button(tag:str) -> rx.Component:
 def send_button(tag:str) -> rx.Component:
     return rx.button(
                 rx.icon(tag=tag),
-                on_click=rx.redirect(
+                rx.link(
                     "https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHRtgQwSnjwwPCwbnZvQnfzXGFplcwVmqFpfmjhBlPdtMTTgfsMhkBNrWltKhHbtqPhzsq",
                     external=True                
                 ),
