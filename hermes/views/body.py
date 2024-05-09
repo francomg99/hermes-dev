@@ -75,7 +75,7 @@ def body_mobile() -> rx.Component:
                     y no representa una empresa existente.""",
                     "Visitar página de Jacaranda Coffee", 
                     "coffee",
-                    "https://jacaranda-coffee.reflex.run/",            
+                    "https://jacarandacoffee.es/",            
                 ),
                 portafolio_pages_mobile(
                     "hermes_page.png",
