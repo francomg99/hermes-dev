@@ -9,13 +9,13 @@ Me llamo Franco y soy un entusiasta del desarrollo web con un enfoque en la tecn
 Aquí puedes encontrar una lista de algunos de mis proyectos destacados:
 
 1. **Caché Bistro**: Página web realizada para Caché Bistro, un restaurante ubicado en la ciudad de Mendoza en Argentina. En esta página, podemos tanto conocer su historia, ver el menú y realizar reservas.
-   - Enlace al proyecto: [https://cachebistro.com.ar/](#)
+   - Enlace al proyecto: [Caché Bistro](https://cachebistro.com.ar/)(#)
 
 2. **Jacaranda Coffee**: Jacaranda Coffee es un proyecto ficticio con fines de aprender a utilizar la tecnología de Reflex.
-   - Enlace al proyecto: [https://jacarandacoffee.es/](#)
+   - Enlace al proyecto: [Jacaranda Coffee](https://jacarandacoffee.es/)(#)
 
 3. **Hermes Dev**: Hermes Dev es mi portafolio principal, donde se podran observar cada trabajo realizado y donde tendran acceso a todas mis redes de contacto.
-   - Enlace al proyecto: [https://hermesdev.es/](#)
+   - Enlace al proyecto: [Hermes Dev](https://hermesdev.es/)(#)
 
 ## Contacto
 ¡Me encantaría escuchar tus ideas y colaborar contigo en futuros proyectos! Puedes contactarme a través de los siguientes medios:
