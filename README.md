@@ -9,18 +9,18 @@ Me llamo Franco y soy un entusiasta del desarrollo web con un enfoque en la tecn
 Aquí puedes encontrar una lista de algunos de mis proyectos destacados:
 
 1. **Caché Bistro**: Página web realizada para Caché Bistro, un restaurante ubicado en la ciudad de Mendoza en Argentina. En esta página, podemos tanto conocer su historia, ver el menú y realizar reservas.
-   - Enlace al proyecto: [https://cache-bistro.reflex.run/](#)
+   - Enlace al proyecto: [https://cachebistro.com.ar/](#)
 
 2. **Jacaranda Coffee**: Jacaranda Coffee es un proyecto ficticio con fines de aprender a utilizar la tecnología de Reflex.
-   - Enlace al proyecto: [https://jacaranda-coffee.reflex.run/](#)
+   - Enlace al proyecto: [https://jacarandacoffee.es/](#)
 
 3. **Hermes Dev**: Hermes Dev es mi portafolio principal, donde se podran observar cada trabajo realizado y donde tendran acceso a todas mis redes de contacto.
-   - Enlace al proyecto: [https://hermes-dev.reflex.run/](#)
+   - Enlace al proyecto: [https://hermesdev.es/](#)
 
 ## Contacto
 ¡Me encantaría escuchar tus ideas y colaborar contigo en futuros proyectos! Puedes contactarme a través de los siguientes medios:
 
-- Email: francomartinezg99@gmail.com
+- Email: [Hermes Email](https://mail.google.com/mail/u/7/#inbox?compose=CllgCJTLpLqMGczKsnjBJcXLPPbBGSVXjdRnGJvjSLRXNpzxKsHnVwfXrvPmdphBQTJVPfNTMpg)
 - LinkedIn: [Franco LinkedIn](https://www.linkedin.com/in/francomg99/)
 - Git Hub: [Franco Git Hub](https://github.com/francomg99)
 
