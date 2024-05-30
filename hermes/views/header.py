@@ -41,7 +41,7 @@ def header_desktop() -> rx.Component:
                             ),
                             icon_link(
                                 "instagram",
-                                "https://www.instagram.com/francomartinezg_/"
+                                "https://www.instagram.com/hermeswebs/"
                             ),
                             icon_link(
                                 "linkedin",
@@ -49,7 +49,7 @@ def header_desktop() -> rx.Component:
                             ),
                             icon_link(
                                 "mail",
-                                "https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHRtgQwSnjwwPCwbnZvQnfzXGFplcwVmqFpfmjhBlPdtMTTgfsMhkBNrWltKhHbtqPhzsq"
+                                "https://mail.google.com/mail/u/7/#inbox?compose=CllgCJTLpLqMGczKsnjBJcXLPPbBGSVXjdRnGJvjSLRXNpzxKsHnVwfXrvPmdphBQTJVPfNTMpg"
                             ),
                             icon_link(
                                 "sticky_note",
@@ -192,7 +192,7 @@ def header_desktop() -> rx.Component:
                         ),
                     rx.vstack(
                         rx.input(
-                            default_value="francomartinezg99@gmail.com",
+                            default_value="hermesdev.info@gmail.com",
                             style={
                                 "width": "300px",        # Controla el ancho
                                 "height": "40px",        # Controla el alto
@@ -223,7 +223,7 @@ def header_desktop() -> rx.Component:
                         contact_text(
                             "✦ Antes que nada revisa nuestro ",
                             "Instagram.",
-                            "https://www.instagram.com/francomartinezg_/"
+                            "https://www.instagram.com/hermeswebs"
                         )                  
                     )                     
                     ),                      

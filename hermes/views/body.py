@@ -21,7 +21,7 @@ def body_desktop() -> rx.Component:
                     Conocé su página para saber más sobre ellos.""",
                     "Visitar página de Caché Bistro", 
                     "wine", 
-                    "https://cache-bistro.reflex.run/",                 
+                    "https://cachebistro.com.ar",                 
                     ),
                 rx.spacer(),
                 portafolio_pages_desktop(
@@ -43,7 +43,7 @@ def body_desktop() -> rx.Component:
                     enlaces de interes para poder contactarte con él y consultar todas tus dudas.""",
                     "Enviar mensaje a Hermes Web", 
                     "send", 
-                    "https://hermes.reflex.run/",                     
+                    "https://hermesdev.es",                     
                     ),
                 width="100%",
             )    
@@ -63,7 +63,7 @@ def body_mobile() -> rx.Component:
                     Conocé su página para saber más sobre ellos.""",
                     "Visitar página de Caché Bistro", 
                     "wine", 
-                    "https://cache-bistro.reflex.run/",                   
+                    "https://cachebistro.com.ar",                   
                 ),
                 
                 portafolio_pages_mobile(
@@ -84,7 +84,7 @@ def body_mobile() -> rx.Component:
                     enlaces de interes para poder contactarte con él y consultar todas tus dudas.""",
                     "Enviar mensaje a Hermes Web", 
                     "send", 
-                    "https://hermes.reflex.run/",                     
+                    "https://hermesdev.es",                     
                 ),
                 width="100%",
                 padding=Size.SMALL.value,

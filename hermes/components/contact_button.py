@@ -4,7 +4,7 @@ from hermes.styles.styles import Color, TextColor, Size
 def copy_button(tag:str) -> rx.Component:
     return rx.button(
                 rx.icon(tag=tag),
-                on_click=rx.set_clipboard("francomartinezg@gmail.com"),
+                on_click=rx.set_clipboard("hermesdev.info@gmail.com"),
                 margin_top=Size.SMALL.value,
                 margin_bottom=Size.SMALL.value,
                 style={
@@ -22,7 +22,7 @@ def send_button(tag:str) -> rx.Component:
     return rx.button(
                 rx.icon(tag=tag),
                 on_click=(rx.redirect(
-                    "https://mail.google.com/mail/u/0/#inbox?compose=CllgCKHRtgQwSnjwwPCwbnZvQnfzXGFplcwVmqFpfmjhBlPdtMTTgfsMhkBNrWltKhHbtqPhzsq",
+                    "https://mail.google.com/mail/u/7/#inbox?compose=CllgCJTLpLqMGczKsnjBJcXLPPbBGSVXjdRnGJvjSLRXNpzxKsHnVwfXrvPmdphBQTJVPfNTMpg",
                     external=True                
                 )
                 ),
