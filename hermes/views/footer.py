@@ -8,7 +8,7 @@ def footer()->rx.Component:
             width=["7em","10em"]
         ),
         rx.text(
-            "©Pagina creada por Franco Martínez - Reflex | Python",
+            "©Pagina creada por Franco Martínez",
             color="#828282"
         )
     )

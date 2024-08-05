@@ -63,8 +63,8 @@ def header_desktop() -> rx.Component:
                 ),
                 rx.box(
                 rx.text(
-                    """¡Bienvenidx a mi portafolio!. Soy un iniciado desarrollador Front-End en Python, apasionado por 
-                    el diseño web y la programación. 
+                    """¡Bienvenido a mi portafolio! Soy un diseñador web especializado en WordPress y utilizo Elementor 
+                    para crear páginas impresionantes. Tengo una pasión por el diseño web y la programación. 
                     ¡Explora mis proyectos y acompáñame en este viaje de desarrollo!"""
                 ),
                 rx.dialog.root(
@@ -85,15 +85,15 @@ def header_desktop() -> rx.Component:
                     rx.dialog.content(
                         rx.dialog.title(others_titles("Sobre mí!")),
                         rx.dialog.description(
-                            """Soy Franco, un apasionado por la programación y el desarrollo web Front-End que esta entrando
-                            en este mundo, cada día queriendo aprender algo nuevo.""",
+                            """Soy Franco, un apasionado por el diseño web que quiere crecer en este mundo,
+                            cada día queriendo aprender algo nuevo.""",
                         ),
                         rx.dialog.description(
                             """Me gusta el café por lo que sería un sueño poder abrir mi propia cafetería y 
-                            programar desde allí.""",
+                            diseñar desde allí.""",
                         ),
                         rx.dialog.description(
-                            """Estoy en búsqueda de mi primer experiencia, mientras tanto voy siendo alguien
+                            """Estoy en búsqueda de experiencias y desafios, mientras tanto voy siendo alguien
                             autodidacta que va realizando proyectos para sí mismo, algunos reales y otros ficticios.""",
                         ),                        
                         rx.dialog.close(
@@ -132,32 +132,28 @@ def header_desktop() -> rx.Component:
                         ),
                     rx.vstack(
                         rx.text.strong(
-                            "Lenguajes de programación",
+                            "Herramientas de trabajo",
                             margin_top=Size.ZERO.value,
                             color=Color.PRIMARY.value,
                             style={'font_size':"1.25em"}
                         ),
                         rx.hstack(
                         skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/PYTHON-%230A151C?style=for-the-badge&logo=python&logoColor=white&labelColor=%233776AB">"""
-
-                        ),
-                        skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/CSS3-%230A151C?style=for-the-badge&logo=css3&logoColor=white&labelColor=%231572B6">"""
-                        )                      
+                            """<img alt="Static Badge" src="https://img.shields.io/badge/WordPress-white?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=%2321759B&color=0a151c">"""
+                        ),                     
                         ),
                         rx.text.strong(
-                            "Frameworks y herramientas",
+                            "Plugins",
                             margin_top=Size.SMALL.value,
                             color=Color.PRIMARY.value,
                             style={'font_size':"1.25em"}
                         ),
                         rx.hstack(
                         skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/REFLEX-%230A151C?style=for-the-badge&logo=resend&logoColor=white&labelColor=%23181717">"""
+                            """<img alt="Static Badge" src="https://img.shields.io/badge/Elementor-white?style=for-the-badge&logo=Elementor&logoColor=white&labelColor=%2392003B&color=0a151c">"""
                         ),
                         skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-%230A151C?style=for-the-badge&logo=visualstudiocode&labelColor=%23007ACC">"""
+                            """<img alt="Static Badge" src="https://img.shields.io/badge/WooCommerce-white?style=for-the-badge&logo=Woo&logoColor=white&labelColor=%2396588A&color=0a151c">"""
                         ),
                         ),
                       rx.text.strong(
@@ -293,8 +289,8 @@ def header_mobile() -> rx.Component:
                 ),
                 rx.box(
                 rx.text(
-                    """¡Bienvenidx a mi portafolio!. Soy un iniciado desarrollador Front-End en Python, apasionado por 
-                    el diseño web y la programación. 
+                    """¡Bienvenido a mi portafolio! Soy un diseñador web especializado en WordPress y utilizo 
+                    Elementor para crear páginas impresionantes. Tengo una pasión por el diseño web y la programación. 
                     ¡Explora mis proyectos y acompáñame en este viaje de desarrollo!"""
                 ),
                 rx.dialog.root(
@@ -315,8 +311,8 @@ def header_mobile() -> rx.Component:
                     rx.dialog.content(
                         rx.dialog.title(others_titles("Sobre mí!")),
                         rx.dialog.description(
-                            """Soy Franco, un apasionado por la programación y el desarrollo web Front-End que esta entrando
-                            en este mundo, cada día queriendo aprender algo nuevo.""",
+                            """Soy Franco, un apasionado por el diseño web que quiere crecer en este mundo,
+                            cada día queriendo aprender algo nuevo.""",
                         ),
                         rx.dialog.description(
                             """Me gusta el café por lo que sería un sueño poder abrir mi propia cafetería y 
@@ -360,31 +356,28 @@ def header_mobile() -> rx.Component:
                         ),
                     rx.vstack(
                         rx.text.strong(
-                            "Lenguajes de programación",
+                            "Herramientas de trabajo",
                             margin_top=Size.ZERO.value,
                             color=Color.PRIMARY.value,
                             style={'font_size':Size.LETTER.value}
                         ),
                         rx.hstack(
                         skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/PYTHON-%230A151C?style=for-the-badge&logo=python&logoColor=white&labelColor=%233776AB">"""
-                        ),
-                        skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/CSS3-%230A151C?style=for-the-badge&logo=css3&logoColor=white&labelColor=%231572B6">"""
-                        )                       
+                            """<img alt="Static Badge" src="https://img.shields.io/badge/WordPress-white?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=%2321759B&color=0a151c">"""
+                        ),                       
                         ),
                         rx.text.strong(
-                            "Frameworks y herramientas",
+                            "Plugin",
                             margin_top=Size.SMALL.value,
                             color=Color.PRIMARY.value,
                             style={'font_size':Size.LETTER.value}
                         ),
                         rx.hstack(
                         skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/REFLEX-%230A151C?style=for-the-badge&logo=resend&logoColor=white&labelColor=%23181717">"""
+                            """<img alt="Static Badge" src="https://img.shields.io/badge/Elementor-white?style=for-the-badge&logo=Elementor&logoColor=white&labelColor=%2392003B&color=0a151c">"""
                         ),
                         skills(
-                            """<img alt="Static Badge" src="https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-%230A151C?style=for-the-badge&logo=visualstudiocode&labelColor=%23007ACC">"""
+                            """<img alt="Static Badge" src="https://img.shields.io/badge/WooCommerce-white?style=for-the-badge&logo=Woo&logoColor=white&labelColor=%2396588A&color=0a151c">"""
                         ),
                         ),
                       rx.text.strong(
@@ -402,7 +395,7 @@ def header_mobile() -> rx.Component:
                         ),
                         skills(
                             """<img alt="Static Badge" src="https://img.shields.io/badge/LINKEDIN-%230A151C?style=for-the-badge&logo=linkedin&labelColor=%230A66C2">"""
-                        ),    
+                        ),     
                         ),                    
                         align_items="start",
                         spacing="1"                        
